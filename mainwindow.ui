@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>742</width>
+    <height>421</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="Dateiladen">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>60</y>
+      <x>570</x>
+      <y>0</y>
       <width>161</width>
       <height>51</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="Exit">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>210</y>
+      <x>570</x>
+      <y>320</y>
       <width>161</width>
       <height>51</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QPushButton" name="Dateihinzufugen">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>130</y>
+      <x>570</x>
+      <y>60</y>
       <width>161</width>
       <height>71</height>
      </rect>
@@ -53,23 +53,13 @@
      <string>Datensatz in Datei hinzufügen </string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="f11">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>10</y>
-      <width>31</width>
-      <height>16</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QTableWidget" name="t1">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>541</width>
-      <height>381</height>
+      <x>10</x>
+      <y>0</y>
+      <width>551</width>
+      <height>371</height>
      </rect>
     </property>
    </widget>
@@ -79,7 +69,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>742</width>
      <height>21</height>
     </rect>
    </property>
