@@ -41,6 +41,5 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    void Tabledaiplay();
 };
 #endif // MAINWINDOW_H

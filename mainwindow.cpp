@@ -8,8 +8,6 @@
 #include<QString>
 #include<string>
 #include<iostream>
-#include<QTabWidget>
-#include<QTableWidgetItem>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -35,8 +33,11 @@ void MainWindow::on_Dateiladen_clicked()
 
       QFile file(QFileDialog::getOpenFileName(this,tr("open File"),"",tr("Text Files(*.txt)")));
       file.open(QIODevice::ReadOnly|QIODevice::Text);
-      QTextStream stream(&file);
-
+   //   QTextStream stream(&file);
+    //  for (int var = 0; var < 5; ++var) {
+        //  stream.readLine()+var;
+        //  QString Vor ,Nach,Alt,Wohn;
+         // stream>>Vor>>Nach>>Alt>>Wohn;
 
      //  QString text1 =stream.readLine()+2;
      //   QString text2 =stream.readLine()+3;
@@ -45,7 +46,44 @@ void MainWindow::on_Dateiladen_clicked()
 //       ui->textBrowser->setText(text2);
 
 
-}
+
+
+      QTextStream stream(&file);
+      QString Vor ,Nach,Alt,Wohn;
+      QTableWidget *t1=new QTableWidget(this);
+      ui->t1->setRowCount(5);
+      ui->t1->setColumnCount(4);
+      QStringList inf;
+       stream.readLine();
+      stream>>Vor>>Nach>>Alt>>Wohn;
+      inf<<"Name"<<"Nachname"<<"Alter"<<"Wohnort";
+      ui->t1->setHorizontalHeaderLabels(inf);
+
+
+      for (int i = 0; i < ui->t1->rowCount(); ++i) {
+          QTableWidgetItem *Add;
+
+          for (int j = 0; j < ui->t1->columnCount(); ++j) {
+
+              Add=new QTableWidgetItem;
+              if(j==0)
+                  Add->setText(Vor);
+
+              if(j==1)
+                  Add->setText(Nach);
+
+              if(j==2)
+                  Add->setText(Alt);
+
+              if(j==3)
+                  Add->setText(Wohn);
+
+              ui->t1->setItem(i,j,Add);
+              }
+          stream.readLine()+i;
+          stream>>Vor>>Nach>>Alt>>Wohn;
+          }
+      }
 
 void MainWindow::on_Dateihinzufugen_clicked()
 {
@@ -56,7 +94,6 @@ void MainWindow::on_Dateihinzufugen_clicked()
     file.open(QIODevice::WriteOnly|QIODevice::Text);
     QTextStream out(&file);
     QString text=ui->f11->toPlainText();
-    ui->textBrowser->setPlainText(text);
     file.flush();
 
 }
@@ -66,8 +103,4 @@ void MainWindow::on_Exit_clicked()
     close();
 }
 
-void MainWindow::Tabledaiplay()
-{
-    QTabWidget *Table=new QTabWidget(this);
-    Table->set
-}
+
