@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "eingabe.h"
+#include "egg1.h"
 
 #include <QFile>
 #include <QTextStream>
@@ -78,5 +79,13 @@ void MainWindow::on_Dateihinzufugen_clicked()
 {
     Eingabe *new_text = new Eingabe();
     new_text->exec();
+
+}
+
+void MainWindow::on_Dateiladen_released()
+{
+    egg1 *new_page = new egg1();
+    new_page->exec();
+
 
 }

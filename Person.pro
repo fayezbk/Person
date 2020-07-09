@@ -16,15 +16,30 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    egg1.cpp \
+    egg2.cpp \
+    egg3.cpp \
+    egg4.cpp \
+    egg5.cpp \
     eingabe.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    egg1.h \
+    egg2.h \
+    egg3.h \
+    egg4.h \
+    egg5.h \
     eingabe.h \
     mainwindow.h
 
 FORMS += \
+    egg1.ui \
+    egg2.ui \
+    egg3.ui \
+    egg4.ui \
+    egg5.ui \
     eingabe.ui \
     mainwindow.ui
 
@@ -32,3 +47,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    pictures.qrc
