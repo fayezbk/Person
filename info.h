@@ -1,5 +1,12 @@
 #define INFO_H
 #include <QDialog>
+#include <QFile>
+#include <QTextStream>
+#include<QMessageBox>
+#include<fstream>
+#include<sstream>
+#include<QString>
+#include<string>
 
 
 class info

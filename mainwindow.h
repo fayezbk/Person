@@ -14,6 +14,10 @@
 #include<QVBoxLayout>
 #include<QIODevice>
 #include<QFileDialog>
+#include<fstream>
+#include<QString>
+#include<string>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -37,5 +41,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    void Tabledaiplay();
 };
 #endif // MAINWINDOW_H

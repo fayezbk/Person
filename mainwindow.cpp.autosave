@@ -68,6 +68,7 @@ void MainWindow::on_Exit_clicked()
 
 void MainWindow::Tabledaiplay()
 {
-    QTabWidget *Table=new QTabWidget(this);
-    Table->set
+    QTableWidget *table=new QTableWidget(this);
+    table->setRowCount(4);
+    table.setc
 }
