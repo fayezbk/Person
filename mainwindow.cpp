@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include"info.h"
+#include "eingabe.h"
+
 #include <QFile>
 #include <QTextStream>
 #include<QMessageBox>
@@ -32,7 +33,7 @@ void MainWindow::on_Dateiladen_clicked()
       file.open(QIODevice::ReadOnly|QIODevice::Text);
       QTextStream stream(&file);
       QString Vor ,Nach,Alt,Wohn;
-      ui->t1->setRowCount(6);
+      ui->t1->setRowCount(50);
       ui->t1->setColumnCount(4);
       QStringList inf;
        stream.readLine();
@@ -72,3 +73,10 @@ void MainWindow::on_Exit_clicked()
 }
 
 
+
+void MainWindow::on_Dateihinzufugen_clicked()
+{
+    Eingabe *new_text = new Eingabe();
+    new_text->exec();
+
+}
