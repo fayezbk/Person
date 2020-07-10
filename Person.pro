@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bearbeiten.cpp \
     egg1.cpp \
     egg2.cpp \
     egg3.cpp \
@@ -26,6 +27,7 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    bearbeiten.h \
     egg1.h \
     egg2.h \
     egg3.h \
@@ -35,6 +37,7 @@ HEADERS += \
     mainwindow.h
 
 FORMS += \
+    bearbeiten.ui \
     egg1.ui \
     egg2.ui \
     egg3.ui \

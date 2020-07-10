@@ -20,15 +20,25 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>920</y>
-     <width>75</width>
-     <height>23</height>
+     <y>910</y>
+     <width>631</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>CLOSE ;-) </string>

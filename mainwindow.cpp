@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "eingabe.h"
 #include "egg1.h"
+#include "bearbeiten.h"
 
 #include <QFile>
 #include <QTextStream>
@@ -34,8 +35,8 @@ void MainWindow::on_Dateiladen_clicked()
       file.open(QIODevice::ReadOnly|QIODevice::Text);
       QTextStream stream(&file);
       QString Vor ,Nach,Alt,Wohn;
-      ui->t1->setRowCount(50);
-      ui->t1->setColumnCount(4);
+      ui->t1->setRowCount(50);    //<-- Zeilen
+      ui->t1->setColumnCount(4);    //<-- Spalten
       QStringList inf;
        stream.readLine();
       stream>>Vor>>Nach>>Alt>>Wohn;
@@ -88,4 +89,10 @@ void MainWindow::on_Dateiladen_released()
     new_page->exec();
 
 
+}
+
+void MainWindow::on_Dateihinzufugen_2_clicked()
+{
+    bearbeiten *new_text = new bearbeiten();
+    new_text->exec();
 }

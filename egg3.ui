@@ -18,7 +18,7 @@
     <rect>
      <x>10</x>
      <y>860</y>
-     <width>631</width>
+     <width>641</width>
      <height>51</height>
     </rect>
    </property>
@@ -48,15 +48,25 @@ font: 26pt &quot;Elephant&quot;;</string>
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>CONTINUE</string>
@@ -66,15 +76,25 @@ font: 8pt &quot;Elephant&quot;;</string>
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>BACK</string>
@@ -84,15 +104,25 @@ font: 8pt &quot;Elephant&quot;;</string>
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>END</string>
@@ -101,16 +131,26 @@ font: 8pt &quot;Elephant&quot;;</string>
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <x>0</x>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>LOVE ME</string>
@@ -120,15 +160,25 @@ font: 8pt &quot;Elephant&quot;;</string>
    <property name="geometry">
     <rect>
      <x>440</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>EXIT</string>
@@ -138,15 +188,25 @@ font: 8pt &quot;Elephant&quot;;</string>
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>930</y>
-     <width>91</width>
-     <height>23</height>
+     <y>920</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 255, 255);
-font: 8pt &quot;Elephant&quot;;</string>
+    <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
    </property>
    <property name="text">
     <string>FUCK YOU</string>

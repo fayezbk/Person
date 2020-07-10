@@ -39,6 +39,8 @@ private slots:
 
     void on_Exit_clicked();
 
+    void on_Dateihinzufugen_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString new_text;

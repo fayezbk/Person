@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -28,6 +28,21 @@
     </item>
     <item row="1" column="0">
      <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;Elephant&quot;;
+background-color: qradialgradient(spread:reflect, cx:0.477682, cy:0.586, radius:1.325, fx:0.488682, fy:0.58, stop:0.0170455 rgba(0, 255, 21, 255), stop:1 rgba(170, 255, 255, 214));
+color:#ffffff;
+ border: 2px solid #00ff00;
+border-color:#000000;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
+      </property>
       <property name="text">
        <string>SAVE</string>
       </property>
@@ -35,6 +50,20 @@
     </item>
     <item row="1" column="1">
      <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.472, cy:0.562545, radius:2, fx:0.465909, fy:0.557, stop:0.397727 rgba(255, 0, 0, 205), stop:1 rgba(255, 255, 255, 255));
+font: 8pt &quot;Elephant&quot;;
+color: #ffffff;
+border: 2px solid #ff0004;
+ padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;</string>
+      </property>
       <property name="text">
        <string>EXIT</string>
       </property>

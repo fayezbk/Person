@@ -37,8 +37,7 @@ void Eingabe::on_pushButton_clicked()
 
 void Eingabe::on_pushButton_2_clicked()
 {
-  MainWindow  *back = new MainWindow();
-   back->close();
+  close();
 }
 
 
